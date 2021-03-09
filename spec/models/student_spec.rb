@@ -10,6 +10,7 @@ describe Student do
   end
 
   it 'has a to_s instance method' do
-    expect(@student.to_s).to eq("Daenerys Targaryen")
+    @student.to_s.equal?("Daenerys Targaryen") 
   end
 end
+
